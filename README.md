@@ -6,26 +6,28 @@ This project finetunes the Mistral-7B-Instruct model (mistralai/Mistral-7B-Instr
 * Quantization: BitsAndBytes for smaller model size and faster inference.
 * Dataset: c-s-ale/alpaca-gpt4-data (Hugging Face Datasets)
   
-Steps
+**Steps**
 
-Install Libraries:
+1. **Install Libraries**:
 
 Bash
 pip install -qU bitsandbytes datasets accelerate loralib transformers peft trl
 Use code with caution.
-Load and Prepare Dataset: Load the Alpaca GPT-4 dataset and format it for instruction generation tasks.
 
-Finetune the Model:  Using Lora and QLoRA, adapt Mistral-7B-Instruct to generate instructions.
+2. **Load and Prepare Dataset**: Load the Alpaca GPT-4 dataset and format it for instruction generation tasks.
 
-Generate Instructions:  Feed the finetuned model a context and use the generate function to produce a new instruction.
+3. **Finetune the Model**:  Using Lora and QLoRA, adapt Mistral-7B-Instruct to generate instructions.
 
-Project Structure
+4. **Generate Instructions**:  Feed the finetuned model a context and use the generate function to produce a new instruction.
+
+**Project Structure**
 
 The code (in a Colab notebook or similar) includes sections for:
 
-Library installation
-Model loading and configuration
-Dataset loading and preprocessing.
-Training loop
-Inference demonstration
-Note: To use this finetuned model, load it along with its tokenizer from the training output directory.
+A) Library installation
+B) Model loading and configuration
+C) Dataset loading and preprocessing.
+D) Training loop
+E) Inference demonstration
+
+**Note**: To use this finetuned model, load it along with its tokenizer from the training output directory.
