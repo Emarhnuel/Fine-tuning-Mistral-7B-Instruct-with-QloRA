@@ -24,10 +24,10 @@ Use code with caution.
 
 The code (in a Colab notebook or similar) includes sections for:
 
-A) Library installation
-B) Model loading and configuration
+A) Library installation.
+B) Model loading and configuration.
 C) Dataset loading and preprocessing.
-D) Training loop
-E) Inference demonstration
+D) Training loop.
+E) Inference demonstration.
 
 **Note**: To use this finetuned model, load it along with its tokenizer from the training output directory.
