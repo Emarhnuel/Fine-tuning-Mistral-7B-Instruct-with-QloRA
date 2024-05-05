@@ -10,9 +10,9 @@ This project finetunes the Mistral-7B-Instruct model (mistralai/Mistral-7B-Instr
 
 1. **Install Libraries**:
 
-Bash
+```
 pip install -qU bitsandbytes datasets accelerate loralib transformers peft trl
-Use code with caution.
+```
 
 2. **Load and Prepare Dataset**: Load the Alpaca GPT-4 dataset and format it for instruction generation tasks.
 
